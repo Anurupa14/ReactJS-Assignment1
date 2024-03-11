@@ -1,0 +1,37 @@
+.main-container {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  min-height: 100vh;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  width: 50%;
+  border-radius: 5px;
+  margin: 10px;
+  margin-left: 0;
+  outline: none;
+  border: 0;
+  font-size: 25px;
+  padding: 5px;
+  padding-left: 15px;
+  color: lightslategray;
+}
+.add-button {
+  width: 15%;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  background-color: rgb(93, 154, 216);
+  border: 0;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}

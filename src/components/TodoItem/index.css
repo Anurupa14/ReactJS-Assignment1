@@ -1,0 +1,38 @@
+p {
+  flex-grow: 2;
+}
+.todo-item-edits {
+  background-color: none;
+  flex-grow: 1;
+}
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 0;
+  align-items: center;
+  background-color: rgb(93, 154, 216);
+  border-radius: 5px;
+  margin: 5px;
+}
+.cross-icon {
+  color: red;
+  margin: 5px;
+}
+button {
+  background-color: transparent;
+  border: 0;
+}
+.inputDisplay,
+.paraDisplay {
+  display: inline;
+}
+.inputHide,
+.paraHide {
+  display: none;
+}
+.todoItemInput {
+  background-color: transparent;
+  color: white;
+  text-align: center;
+}
